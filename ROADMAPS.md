@@ -132,3 +132,26 @@ Writes rd/tap/log-<ts>.md. Fired by cron (~every 3h) and manually.
 cross-iteration = the whiskey conversation; the culture is the incubator.
 
 STATUS: _first round firing 07:2x_
+
+---
+
+## TIT LANE (tmux: rd-tit) — the receipted ledger
+
+**Piece:** the TIT metatoolbox (session-as-graph, the tit-quilt app) as
+the R&D arm's ledger. Every lane deliverable gets bound into the `rd`
+tit session with sha receipts; the walks-bridge exporter becomes a tit
+tool; the walks pipeline becomes a `tit pipe` artifact (composition as
+artifact). Nothing witness-referenced is destroyed.
+
+**Mechanism:** rd/patches/tit/register.sh — the standing registrar
+(tmux loop, 10 min, idempotent re-binds bump versions).
+`tit --session rd graph` = provenance view; `tit --session rd witness <cell>`
+= a receipt's closure.
+
+**Context:** tit CLI installed (venv /home/eileen/projects/tit-quilt/.venv,
+symlink ~/.local/bin/tit). Docs: tit-quilt/DESIGN.md + docs/SUPERPOWERS.md.
+
+**Next:** walks-bridge exporter → register as tit tool + compose the
+journal→walks `tit pipe` once the opencode lane lands.
+
+STATUS: _live 07:34 — 22 cells bound, S2 artifacts receipted, registrar loop in tmux_
